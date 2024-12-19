@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title, #description {
+  margin: 2px;
+  font-weight: bolder;
+}
+
+main {
+  margin: 2px;
+  border: 0px solid black;
+  box-shadow: 0px 0px 10px gainsboro;
+  height: 600px;
+}
+#map {
+    width: 960px;
+    height: 600px;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    display: none;
+}
+
+#legend {
+    display: flex;
+    margin-top: 20px;
+}
+
+.legend-box {
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+}
